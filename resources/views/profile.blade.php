@@ -1,5 +1,13 @@
+
 @extends('layouts.main')
 
 @section('container')
-    <h1>Halaman Profile</h1>
+
+    @foreach ($posts as $posts)
+    <h2>{{ $posts["title"] }}</h2>
+    <p>{{ $posts["body"]}}</p>
+        
+    @endforeach
+   
 @endsection
+
