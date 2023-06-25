@@ -12,7 +12,7 @@
           <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/About">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "profile") ? 'active' : '' }}" href="/Profile">Profile</a>
+            <a class="nav-link {{ ($title === "profile") ? 'active' : '' }}" href="/blog">Profile</a>
           </li>
         </ul> 
         <form class="d-flex" role="search">
