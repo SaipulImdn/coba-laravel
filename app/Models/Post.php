@@ -7,7 +7,7 @@ class Post
 {
     private static $blog_posts  = [
         [
-            "title" => "Judu Tulisan Pertama",
+            "title" => "Judul Tulisan Pertama",
             "slug" => "judul-tulisan-pertama",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint placeat totam officia accusamus expedita odio iste. Sed voluptas aliquam illo enim iusto, dignissimos maiores recusandae dolor praesentium officiis quae harum."
         ],
